@@ -37,6 +37,7 @@ rem Define the destination folder
 set "dest=c:\users\korin\desktop\ExampleFolder"
 
 rem Create alternative destination folder if not exist
+rem NOTE: MKDIR is for creating a new directory; MV relocates existing files; CD only changes the directory.
 if not exist %dest% mkdir "%dest%"
 
 rem Loop through each directory
@@ -52,6 +53,8 @@ for %%D in (%dirs%) do (
 		)
 echo Process complete.
 pause
+
+
 	
 	
 
