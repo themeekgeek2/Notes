@@ -119,11 +119,10 @@ Use **Get-ChildItem** (aliased as **gci** or **dir**).
 Allows modification of the **CreationTime** property.
 
 * Move files older than X days: This moves all files created more than 30 days ago to a destination folder:
-```powershell \-command "Get-ChildItem \-File | Where-Object { $\_.CreationTime \-lt (Get-Date).AddDays(-30) } | Move-Item \-Destination 'C:\\Archived'"
-```
+```powershell \-command "Get-ChildItem \-File | Where-Object { $\_.CreationTime \-lt (Get-Date).AddDays(-30) } | Move-Item \-Destination 'C:\\Archived'"```
 * Organize files into folders by year and month: This script automatically creates folders (e.g., 2025-01) based on each file's creation date and moves the file into its respective folder:
-```powershell \-command "Get-ChildItem \-File | ForEach-Object { $dir \= $\_.CreationTime.ToString('yyyy-MM'); if (\!(Test-Path $dir)) { New-Item \-ItemType Directory \-Name $dir }; Move-Item $\_.FullName \-Destination $dir }
-```
+```powershell \-command "Get-ChildItem \-File | ForEach-Object { $dir \= $\_.CreationTime.ToString('yyyy-MM'); if (\!(Test-Path $dir)) { New-Item \-ItemType Directory \-Name $dir }; Move-Item $\_.FullName \-Destination $dir }```
+
 
 ### For CMD:
 
