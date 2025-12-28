@@ -1,0 +1,5 @@
+const targets = ".ad-container, .google-auto-placed, .iframe, .adBanner, .corner_ad_video, .ob-rec-image ob-show, .ob-sub-units, .allow-scripts-same-origin"
+
+document.querySelectorAll(targets).forEach(el => el.remove());
+
+

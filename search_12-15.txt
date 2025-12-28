@@ -1,0 +1,67 @@
+clear-text credentials
+Explicit Credential Logon
+winlogon.exe
+DLL
+token
+Invoke -TokenManipulation
+.PARAMETER (in Powershell script)
+Powershell options like [switch] and [string]
+backdoor
+trojan
+malware types/functions
+RAT file
+
+sandbox-security mechanism that isolates a program so that it can run without effecting the rest of the system (basically like a shield from outside processes)
+
+what is a driver (computer)?
+What is an INI file?
+What are Linux dot files and how to edit
+Git on CMD commands
+Git UI on CMD
+Merge repos (tools-batch scripts)
+Windows reg
+Edit rainmeter skin for desktop
+Using AI to merge and sort note files (.txt to markdown) into one doc
+
+when do you not need to use pipelines with powershell?
+
+Get-retrieves data
+Set-modifies the properties of an object
+Add-adds an item to a collection
+Stop-stops a process or service
+Start-starts a process or service
+Clear-removes all items from a collection
+
+common aliases:
+
+Ls for Get-ChildItem
+Gci for Get-ChildItem
+Dir for Get-ChildItem
+Gc for Get-Content
+Rm for Remove-Item
+Cd for Set-Location
+Cls for Clear-Host
+
+
+Parameters (the 'options' of a command) are marked with hyphens (-) before it
+
+Get-Command "_" lists all commands that have the contents inside the quotes
+
+Get-Process -Name "_" retrieves information on the supplied process name inside the quotes
+
+Where-Object serves as a filter for retrieved information; often used with Get-Process Command
+
+Get-Service fetches Windows services
+
+Get-Eventlog
+
+Get-NetAdapterStatistics
+
+Set-Location is basially CD
+
+Copy-Item copies files from one directory to another
+
+$_.
+
+Start-Process runs files (e.g. EXE files)
+

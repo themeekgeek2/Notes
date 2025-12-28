@@ -1,0 +1,74 @@
+script:
+
+create a script for javascript console that removes all ads and CSS when ran
+
+possibly a recreate in powershell (no need-more for automating repetitive tasks; would require executing selenium and/or CDP back-to-back just to load up a DOM script-unnecessary.)
+
+how to check if i have selenium installed on my system-powershell--> ```Get-Module -ListAvailable *selenium*```
+
+
+
+for copilot:
+
+what are the steps for creating a powershell script that automatically runs in a certain browser when commanded to? would the script be able to work with a web extension like tampermonkey? this would basically be a form of browser automation.
+
+"set up the environment so that powershell opens the browser in a specific way, and tampermonkey reacts to the page."
+
+powershell for browser automation:
+* launch a specific browser with arguments (Chrome, Edge, Firefox)
+* open URLs, profiles, custom flags, etc.
+* use with frameworks such as Selenium Webdriver "for full control"
+* Use CDP/BiDi protocol wrappers (like the GitHub project in the search results) to script browser actions
+
+powershell CANNOT:
+* directly inject javascript into a browser tab
+* directly control browser extensions
+* directly manipulate tampermonkey (however, it can trigger the conditions under which Tampermonkey runs)
+
+Tampermonkey runs userscripts that can:
+* modify the page
+* automate clicks
+*fill forms
+*observe DOM changes
+*run logic on page load
+
+Automation chain with Powershell and Tampermonkey used together:
+Powershell opens browser and loads the url; Tampermonkey script executes after URL loads
+
+Tampermonkey runs INSIDE the browser
+Powershell runs OUTSIDE the browser
+They interact through:
+* URLs
+* Query parameters
+* Local files
+* Browser files
+*Custom set triggers
+
+Powershell CANNOT directly interact with a browser for these reasons:
+1.) It runs at the OS level, meaning that it simply interacts with Windows commands and processes that tell it to do something.
+
+2.) It can modify webpage files, such as HTML, CSS, and JS, because they are only local files.
+
+3.) Browsers block things like malware, scripts from reading tabs, external code-injecting programs and OS-level DOM manipulation tools for security purposes.
+
+
+Analogy of Selenium (web framework) to CDP (Chrome DevTools Protocol):
+Selenium = driving a car using the steering wheel and pedals
+(standard, safe, consistent)
+CDP = plugging into the car’s onboard computer and controlling it electronically
+(faster, deeper, more powerful, but more technical)
+
+How to merge repos using Git commands-sourced from https://stackoverflow.com/questions/1425892/how-do-you-merge-two-git-repositories:
+
+```
+cd path/to/project-a
+git checkout some-branch
+
+cd path/to/project-b
+git remote add project-a /path/to/project-a
+git fetch project-a --tags
+git merge --allow-unrelated-histories project-a/some-branch
+git remote remove project-a
+```
+
+

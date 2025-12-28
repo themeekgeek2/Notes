@@ -1,0 +1,38 @@
+Low-level programming:
+* code similar to machine language (including binary code and Assembly)
+* usage for interacting and controlling computer hardware as well as firmware (OS settings, drivers, embedded systems, etc.)
+
+High-level programming:
+* code similar to human language (English)
+* focus on readability and ease of use (such as Python, Java, C# and Powershell)
+* tend to be **object-oriented**, dealing with variables, objects, functions, arrays, Booleans and other data types, rather than registers and call stacks
+* a more favorable choice for software and game dev
+* unlike low-level languages, it requires a compiler or interpreter to convert to machine code
+* more portable
+
+sources: https://codefinity.com/blog/Understanding-Low-Level-and-High-Level-Programming-Languages,
+Google AI search
+
+
+Described as being "close to the hardware"
+First-gen programming language
+Programs written in Assembly language are non-portable
+
+First-gen (1GL): Machine language designed for the earliest computers. Was difficult to debug and non-portable.
+
+Second-gen (2GL): Assembly language introduced for more ease of use, meant to make machine language more readable. Still non-portable.
+
+Third-gen (3GL): High-level languages that revolutionized programming, as it introduced syntax similar to spoken human language. It abstracted (hid) compilated hardware details. Code able to be compiled into machine code. Portable.
+
+
+Assembly language has little semantics or formal specification, being only a mapping of human-readable symbols, including symbolic addresses, to opcodes, addresses, numeric constants, strings, etc.
+
+1 machine instruction = 1 Assembly code line } called a mnemonic
+
+Assemblers create object files that can link with other object files or be loaded on their own. 
+
+High-level languages can access low-level programming languages with an inline assembly (low-level code embedded within high-level code)
+
+C considered the 'base' of all programming languages. The C language is particularly impactful due to its flexibility, portability, and ease of use.
+C is a general-use language that can be used as a low-level language (what it originally was for, as it was developed in the 1970s as a successor of B) and for high-level programming uses. C can abstract hardware details while being able to still access hardware and firmware.
+
