@@ -1,0 +1,28 @@
+bit: Short for 'binary digit'; the most basic unit of data on a computer in the form of a 1 or 0
+
+Bitrate: number of bits processed per time unit
+
+Bitmap (raster): Type of image formed of rows of different colored pixels; buses the BMP format to store bitmap images independently of the display device (e.g. a graphics adapter).
+
+Delimited-separated values (DSV): Stores tabular data by separating values of each row with a specific character (the delimiter). Often used for data exchange and a category of data format.
+
+Comma-separated values (CSV): Plain text data format for storing tabular data where the fields (values) of a record is a line (i.e. newline separated). Commonly used with software dealing with tabular data such as a database or spreadsheet. Form of delimiter-separated values.
+newline: also called 'line ending', 'end of line' (EOL), 'next-line' (NEL) or 'line break'; control character used to signify the end of a line of text and the start of a new one
+
+Continuous integration (CI): DevOps practice of building and testing source code automatically after each merge from contributors within a software project. Involves using a version-control system such as Git/GitHub. Helps keep your code working and deployable within a project.
+
+Continuous delivery (CD): DevOps practice of automating the manual steps involved in preparing software for production release; extends the CI process by automatically deploying each build to different performance tests and stages. The goal is to automate as much of the process (that would otherwise be manual and done by a human team) as much as possible.
+
+CI/CD: Also known as CICD; combined practices of Continous Integration and Continuous Delivery (and sometimes continous deployment) that bridges the gap between development, operations and teams by enforcing automation in building, testing and deployment; a key part of modern-day DevOps practices.
+Aims to increase early defect discovery, increase productability and provide faster release cycles
+Contrasts with traditional, manual methods of software development in which a collection of software updates with integrated into a large batch before deploying an update. Releases were infrequent with traditional methods due to longer development phases and increased chance/frequency of faulty code.
+
+DevOps: cultural philosophy, set of practices and tools that combine software development (Dev) and IT operations (Ops) to automate and integrate processes. Focuses on collaboration, automation (like CI/CD) and feedback loops to increase efficiency and speed. More open to different methods of production and breaks down old barriers for quicker updates and better quality of applications.
+
+"How to get into DevOps?" (From Google Search AI)
+Build a strong foundation in Unix-like systems (e.g. Linux and macOS), scripting (Python, Bash, Powershell, etc.), Git (or other similar version control software), then explore the core concepts of software development containers (like Docker and Kubernetes), cloud platforms (AWS/Azure/GCP) and Infrastructure as Code (Terraform/Ansible).
+Gain practical experience through projects, open-source contributions and building a portfolio.
+Helps to adapt the mindset and focus on automation, collaboration and continuous learning and improvement. 
+Network and join communities, meetups, follow industry leaders, ask professionals questions, etc.
+
+MATLAB (Matrix Laboratory)

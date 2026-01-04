@@ -1,0 +1,59 @@
+*(from Wikipedia-'Computer Hardware')*
+
+
+Input Devices
+	Pointing devices:
+		* Graphics tablet
+		* Game controller
+		* Light pen
+		* Optical mouse
+		* Optical trackpad
+		* Touchpad
+		* Touchscreen
+		* Trackball
+
+Output Devices:
+	* Monitor (screen)
+	* Refreshable braille display
+	* Printer
+	* Speakers
+	* Sound chip
+	* Graphics card
+
+
+Removable data storage:
+	* Disk pack
+	* Floppy disk
+	* Optimal disk (CD, DVD, Blu-ray)
+	* Flash memory (memory card, USB flash drive)
+
+
+Computer Case
+	*CPU (microprocessor)
+	* Motherboard
+	* Memory (RAM, BIOS)
+	* Data storage (HDD, SDD (SATA/NVMe), SSHD)
+	* Power supply (SMPS)
+	* MOSFET (Power MOSFET, VRM)
+	* Network interface controller (NIC)
+	* Fax modem
+	* Expansion card ports
+
+
+Ports
+	Current:
+		* Ethernet
+		* USB
+		* Thunderbolt
+		* Analog audio jack
+		* DisplayPort
+		* HDMI
+	Obselete:
+		* FireWire (IEEE 1394)
+		* Parallel port
+		* Serial port
+		* Game port
+		* PS/2 port
+		* eSATA
+		* DVI
+		* VGA

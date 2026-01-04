@@ -1,0 +1,121 @@
+A program is an algorithm ONLY if it eventually steps, even though infinite loops may sometimes prove desirable.
+Most algorithms intended to be implemented as computer programs.
+With modern algorithms, they're used as a way to analyze a person's interests and push more related content to the users (common with social media apps like Instagram, TikTok and YouTube).
+Algorithms can be expressed in many kinds of notation, including in natural languages, pseudocode, flowcharts, drakon-charts, programming languages or control tables (processed by interpreters).
+
+Difference between representations:
+
+Natural language expressions tend to be more redundant; rarely used for complex or technical algorithms.
+
+Expressions like pseudocode, charts and control tables are structured expressions of algorithms that avoid the common mistakes of natural languages.
+
+
+
+Turing machines, proposed by Alan Turing in 1936; a simple. hypothetical computation model that defined the computability of a __ using an infinitely long take, a read/write head, and a finite set of rules, capable of simulating any computer algorithm.
+
+The machine reads symbols on the tape, changes the internal state, writes new symbols and moves either left or right. In other words, it simulates the process of computer algorithms/mechanical procedures with tape. It's capable of "[performing] any task that any modern computer can, given enough time and tape" (Google Search AI)
+
+A Turing machine has 3 levels:
+
+High-level Description: describes qualities of the algorithm itself and ignores how its implemented on the Turing machine
+
+Implementation Description: describes the general manner in which the machine "moves its head" and stores data to carry out the algorithms, but doesn't give the exact states.
+
+Formal Description: gives the exact state table and list of transitions of the Turing machine.
+
+
+
+Algorithm: finite sequence of mathematically rigorous instructions
+
+Paradigm: a model or example of something; prototype.
+
+Heuristic: approach to solving problems without optimal results
+e.g. Although social media recommender systems are commonly called "algorithms", they actually rely on heuristics because there is no true "correct" recommendation.
+
+Church-Turing thesis: states that any natural number function can be calculated by a Turing machine as long as it's computable by an "effective method" (a finite, mechanical procedure).  'Computable functions' also described with the term "effectively calculable' (meaning the functions are solvable by pen-and-paper methods).
+
+Pidgin code: Mixture of several programming langauges in the same program; blends the syntax of programming languages with mathematical notation (typically using set theory and matrix operations) and natural langauges; 'mathematical pseudocode'. A way to describe algorithms where the control structure is made clear at a high level of detail while other data structures are left at an abstract level (non-explicit) level.
+
+Control table: Table data structure (e.g. array of records) used to direct the control flow of a computer program. Dictates program logic, acts as a lookup for settings or tracks process status, reducing repetitive code by storing parameters, conditions and actions outside of the main program flow. Often used for configuration (UDCs, menus), workflow management (ETL jobs) or directing program execution (table-driven design). Also hold mainly constant data, making systems easier to maintain and update. 
+
+Big O notation: Mathematical notation that describes an estimated size of the function on  a domain
+
+Binary search algorithm: Locates an item in a sorted sequence.
+
+Binary tree: Tree data structure in which each node has at MOST two children (referred to as 'left child' and 'right child')
+
+Quantum algorithm: Runs on a realistic model of quantum computation; mostly associated with algorithms involved with quantum computing
+
+Benchmark: Act of running a program, set of programs, or other operations in order to determine the relative performance of an object, normally by running a standard number of tests against it.
+Most associated with assessing performance characteristics of hardware (e.g. floating point operation performance of a CPU), though software can also be included (such as with compilers or DBSM (Database System Management))
+
+Empirical testing
+
+Algorithmic analysis
+
+Polynomial time complexity
+
+Probability bound
+
+Automata theory: Study of abstract machines and automata. Closely related to formal theory in the way that automata are used as finite representations of formal languages that may be infinite.
+Automaton ('automata' in plural): An abstract self-propelled computing device that follows a predetermined sequence of operations automatically.
+
+"The algorithm only needs to remember two values: The sum of all the elements so far, and its current position in the input list."
+"Different algorithms may complete the same task with a different set of instructions in less or more time, space or 'effort' than others."
+
+Best/Worse Case of Algorithms:
+
+Best: scenario where the algorithm/data structure takes less time and resources to finish tasks
+Worst: case that causes the algorithm/data structure to consume the max amount of time and resources
+
+Turing completeness only requires four installment types: conditional GOTO, unconditional GOTO, assignment and HALT
+
+
+Classification of Algorithms:
+
+By Implementation:
+
+Recursion: invokes itself repeatedly until meeting a termination condition; a common functional programming method. Iterative algorithms use repetitions (loops, data structures, etc.) to solve problems.
+
+Serial, parallel and distributed: 
+Serial: designed for environments where computers execute one instruction at a time on serial computers.
+Parallels: take advantage of computer architectures where multiple processes can work on problems simultaneously.
+Distributed: use multiple machines connected from a computer network.
+Parallel and distributed algorithms divide the problems into smaller chunks (subproblems) and collect the results back together.
+
+Deterministic/non-deterministic:
+Deterministic algorithms solve problems with exact decisions at every step, while non-deterministic algorithms solve problems by guessing (which are usually made more accurate through the use of heuristics).
+
+Exact or approximate: While many algorithms reach or aim to react an exact solution, approximation algorithms seek approximations close to the true solution.
+
+By Design Paradigm:
+
+Brute force/exhaustive search: A method of systematically trying every possible option until the optimal solution is reached. Can be very time consuming, and often used as a last resort to unavailable options. Can also solve a variety of problems including finding the shortest path between two points and cracking passwords.
+
+Divide-and-conquer: Repeatedly reduces a problem to one or more instances of itself, usually recursively, until the instances are small enough to solve easily.
+Merge sorting: a divide-and-conquer method where an unordered list is repeatedly split into smaller lists, which are sorted in the same way, and then merged.
+Decrease-and-conquer: also called "prune-and-search"; solves one smaller instances of itself and doesn't require a merge step (e.g. the binary search algorithm)
+
+Search and enumeration: Graph exploration algorithm; specifies rules for moving around a graph and is useful for problems that can be modeled on graphs (e.g. playing chess). This category includes search algorithms, branch and bound enumeration and backtracking (in which multiple solutions are built incrementally and abandoned when they can't lead to a valid full solution.
+
+Randomized: Makes choices randomly/pseudo-randomly. Finds approximate solutions when finding exact solutions may be ineffective.
+P vs. NP: the opening questioning for whether randomized algorithms with polynomial time complexity can be the fast algorithm to use for a problem.
+Monte Carlo algorithms return a correct answer with a high probability.
+Las Vegas algorithms always return the correct answer, but their running time is only probability bound.
+
+Reduction of complexity: Finds a reducing algorithm whose complexity isn't dominated by the resulting reduced algorithms; also called "transform and conquer"
+
+Backtracking (see 'Search and enumeration')
+
+Optimization Problems:
+
+Linear programing: aka Linear optimization; Finds the best outcome by using a mathematical model whose requirements and objective are represented by linear relationships. The goal is to determine optimal resource allocation and is helpful for manufacturing, finance or logistics. Key concepts are:
+Decision variables: unknown variables the user controls (e.g. number of items to produce, amount of resources available)
+Objective function: a linear equation representing the goal using the decision variables (e.g. 2x+3y)
+Constraints: linear inequalities or equalities defining limitations (e.g. resource availability, time, budget) that must be satisfied (x+y<10)
+
+Dynamic programming: Technique that breaks down problems into smaller, overlapping subproblems and stores the solutions in a table (memoization or tabulation) to avoid redundant calculations.
+
+Greedy algorithms: similar to dynamic programming in the way that they work by examining structures, except given a solution instead of a problem. Starts with some given solution and improves it by making small modifications.
+
+The heuristic method: Find solutions close to the optimal solution when finding the optimal solution is impractical. They get closer to the optimal solution as they progress and will eventually reach it if, in principle, run for an infinite amount of time. These algorithms include local search, tabu search, simulated annealing, and genetic algorithms. Can ideally find a solution very close to the optimal one in a short amount of time.

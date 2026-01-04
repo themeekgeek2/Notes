@@ -1,0 +1,49 @@
+Model of computation: key concept in computability theory that describes how an output of a mathematical function is computed given an input
+
+Categories:
+
+Sequential models:
+
+Finite-state machines
+
+Post-machines (e.g. Post-Turing machines & tag machines)
+
+Pushdown automata
+
+Register machines (e.g. RAM machines)
+
+Turing machines
+
+Decision tree model
+
+External memory model
+
+
+Functional models:
+
+Abstract rewriting systems
+
+Combinary logic
+
+General recursive functions
+
+Lambda calculus
+
+
+Concurrent models:
+
+Actor model
+
+Cellular automation
+
+Interaction nets
+
+Kahn process networks
+
+Logic gates and digital circuits
+
+Petri nets
+
+Process calculus
+
+Synchronous data flow
